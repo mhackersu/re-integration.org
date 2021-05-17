@@ -15,7 +15,7 @@ import CategoryList from '../../components/products/CategoryList';
 import reduceProductImages from '../../lib/reduceProductImages';
 
 const detailView = `<p>
-  Slightly textured fabric with tonal geometric design and a bit of shine
+  Each tactical-grade backpack is delivered in person with verified receipt.
 </p>`;
 
 class Product extends Component {
@@ -87,13 +87,12 @@ class Product extends Component {
               onClick={this.toggleShipping}
               className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
             >
-              Shipping and returns
+              Details
               <img src="/icon/plus.svg" />
             </div>
             <Collapse isOpened={showShipping}>
               <div className="pb-4 font-color-medium">
-                Arrives in 5 to 7 days, returns accepted within 30
-                days. For more information, click here.
+                Each kit is labeled individually for each recipient. Each recipient is provided a dedicated serial number for their issued kit along information for replacement item requests.
               </div>
             </Collapse>
             <div className="h-1 border-bottom border-color-black" />
@@ -101,7 +100,7 @@ class Product extends Component {
               onClick={this.toggleDetails}
               className="d-flex cursor-pointer py-3 justify-content-between font-weight-medium"
             >
-              Details
+              Delivery
               <img src="/icon/plus.svg" />
             </div>
             <Collapse isOpened={showDetails}>
@@ -117,10 +116,10 @@ class Product extends Component {
         </div>
       </div>
 
-      <ClientReview />
-      <SuggestedProducts />
-      <ExploreBanner />
-      <SocialMedia />
+      {/* <ClientReview /> */}
+      {/* <SuggestedProducts /> */}
+      {/* <ExploreBanner /> */}
+      {/* <SocialMedia /> */}
       <Footer />
     </Root>
     );

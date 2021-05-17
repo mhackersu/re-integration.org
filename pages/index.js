@@ -12,15 +12,15 @@ import ProductsBanner from '../components/homepage/ProductsBanner';
 const Home = () => (
   <Root transparentHeader={true}>
     <Head>
-      <title>Home | commerce</title>
+      <title>Home | re-integration dot org</title>
     </Head>
 
-    <HeroSection />
-    <HomeBanner />
-    <CategoryBanner />
+    {/* <HeroSection /> */}
+    {/* <HomeBanner /> */}
+    {/* <CategoryBanner /> */}
     <ProductsBanner />
-    <ExploreBanner />
-    <SocialMedia />
+    {/* <ExploreBanner /> */}
+    {/* <SocialMedia /> */}
     <Footer />
   </Root>
 );

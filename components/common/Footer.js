@@ -6,24 +6,10 @@ const Footer = () => (
       <div className="row">
         <div className="col-12 col-sm-6 col-md-4">
           <p className="font-family-secondary font-size-display1 mb-4">
-            Commerce.js
+            Re-integration dot org
           </p>
           <div className="d-flex font-color-medium mb-5 pb-3 pb-md-0 mb-md-0">
             <div className="pr-5">
-              <a
-                href="https://commercejs.com/docs/"
-                className="mb-3 d-block font-color-medium"
-                target="_blank"
-              >
-                Documentation
-              </a>
-              <a
-                href="https://commercejs.com/features"
-                className="d-block font-color-medium"
-                target="_blank"
-              >
-                Features
-              </a>
             </div>
             <div>
               <a
@@ -107,7 +93,7 @@ const Footer = () => (
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              Deploy to Netlify
+              Restored
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
@@ -115,7 +101,7 @@ const Footer = () => (
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              Clone in GitHub
+              Renewed
             </a>
             <p className="px-2 font-color-brand font-size-caption">-</p>
             <a
@@ -123,7 +109,7 @@ const Footer = () => (
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              Contribute
+              Refined
             </a>
           </div>
           <div className="font-color-brand font-size-caption py-4 text-right">
@@ -132,7 +118,7 @@ const Footer = () => (
               className="font-color-brand font-size-caption text-uppercase text-center"
               target="_blank"
             >
-              &copy; { new Date().getFullYear() } Chec/Commerce.js.
+              &copy; { new Date().getFullYear() } Re-Integration dot org.
             </a>
           </div>
         </div>
